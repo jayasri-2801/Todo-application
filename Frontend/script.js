@@ -2,7 +2,7 @@ const task_input = document.getElementById("inp");
 const add_btn = document.getElementById("add-btn");
 const task_list = document.getElementById("tasklist");
 
-const API_URL = "http://localhost:3000/todolist";
+const API_URL = "https://todo-backend-f69b.onrender.com/todolist";
 
 // Load tasks when page loads
 window.addEventListener("DOMContentLoaded", () => {
