@@ -42,8 +42,8 @@ app.delete("/todolist/:id", async (req, res) => {
     res.json({ message: "Deleted Successfully" });
 });
 
-const port =process.env.port||3000;
-app.listen(port, () => {
-    console.log("Server running on port 3000",port);
+const PORT =process.env.port||3000;
+app.listen(PORT, () => {
+    console.log("Server running on port 3000",PORT);
 });
 //
